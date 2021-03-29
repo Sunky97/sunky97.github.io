@@ -24,3 +24,24 @@ last_modified_at: 2021-03-28
 |트랜스포트 계층|애플리케이션 계층과 인터넷 계층 사이에서 데이터가 올바르게 전달되도록 중계한다.|TCP,UDP|
 |인터넷 계층|목적지의 IP 어드레스로 데이터를 전달한다.|IP 어드레스, IPv4, IPv6, ICMP, 라우팅 ... |
 |네트워크 인터페이스 계층|네트워크 어댑터와 같은   하드웨어를 통해 데이터를 전달한다.|이더넷, 무선 LAN, MAC 어드레스, PPP, FTTx, xDSL ... |
+
+<br><br><br>
+
+## **각 계층을 통과하는 데이터의 형태**
+<hr>
+
+![image](https://user-images.githubusercontent.com/71059456/112846940-8a769280-90e1-11eb-96c0-4dff100f4387.png)
+
+<br>
+<br>
+
+![image](https://user-images.githubusercontent.com/71059456/112847076-a9752480-90e1-11eb-9658-f77638d08d8d.png)
+
+<br>
+<br>
+
+![image](https://user-images.githubusercontent.com/71059456/112848609-3a003480-90e3-11eb-8be5-df7db46d7911.png)
+
+
+
+
