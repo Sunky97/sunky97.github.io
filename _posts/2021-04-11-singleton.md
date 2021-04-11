@@ -24,7 +24,9 @@ last_modified_at: 2021-04-11
 <br>
 <br>
 
-> 기본적인 싱글톤 패턴 구현
+> 기본적인 싱글톤 패턴 구현  
+
+
 ```java
 public class SingleObj {
     private static SingleObj singleObj = null;
