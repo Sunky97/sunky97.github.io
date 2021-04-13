@@ -99,6 +99,7 @@ author:
   bio              : "아기개발자"
   location         : "Seoul, korea"
   email            : "hsk11261612@gmail.com"
+  github           : "http://github.com/sunky97"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
