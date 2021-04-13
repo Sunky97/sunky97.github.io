@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "Sunky"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/profile.jpg"
   bio              : "아기개발자"
   location         : "Seoul, korea"
   email            : "hsk11261612@gmail.com"
