@@ -28,11 +28,7 @@ List 인터페이스를 구현한 모든 List 클래스는 다음과 같은 특�
 3. Vector&#60;E>
 4. Stack&#60;E>
 
-<br>
-<br>
-<br>
-
- - - -
+<br><br>    
 
 ## ArrayList&#60;E> 클래스 
 
@@ -110,7 +106,6 @@ System.out.println("리스트의 크기 : " + arrList.size()); // 리스트의 �
 
 <br>
 
-- - -
 ## LinkedList&#60;E> 클래스
 `LinkedList` 클래스는 `ArrayList` 클래스가 배열을 이용하여 요소를 저장함으로써 발생하는 단점을 극복하기 위해 고안된 클래스이다. 
 `LinkedList` 는 내부적으로 연결 리스트(linked list)를 이용하여 요소를 저장한다. 
@@ -138,11 +133,6 @@ System.out.println("리스트의 크기 : " + arrList.size()); // 리스트의 �
 
 <br>
 
-- - -
-<br>
-
-<br>
-
 ## Vector&#60;E> 클래스  
 
 <br>
@@ -153,11 +143,8 @@ System.out.println("리스트의 크기 : " + arrList.size()); // 리스트의 �
 
 하지만 현재에는 기존 코드와의 호환성을 위해서만 남아있으므로, `Vector` 클래스보다는 `ArrayList` 클래스를 사용하는 것이 좋습니다.
 
-<br>
 
-<br>
-
-- - - 
+<br><br>
 
 ## List 인터페이스 메소드
 
