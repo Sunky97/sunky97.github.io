@@ -74,3 +74,22 @@ System.out.println("집합의 크기 : " + hs02.size()); // 3
 2. 해당 범위 내의 요소들을 equals() 메소드로 비교한다.
 
 따라서 HashSet에서 add() 메소드를 사용하여 중복 없이 새로운 요소를 추가하기 위해서는 hashCode()와 equals() 메소드를 상황에 맞게 오버라이딩해야 한다.
+
+<br>
+
+## 해시 알고리즘(hash algorithm)
+
+해시 알고리즘(hash algorithm)이란 해시 함수(hash function)를 사용하여 데이터를 해시 테이블(hash table)에 저장하고, 다시 그것을 검색하는 알고리즘이다.
+
+![a](http://tcpschool.com/lectures/img_java_hash_algorithm.png)
+
+자바에서 해시 알고리즘을 이용한 자료 구조는 위의 그림과 같이 배열과 연결 리스트로 구현되는데, 저장할 데이터의 키값을 해시 함수에 넣어 반환되는 값으로 배열의 인덱스를 구한다.
+
+그리고 해당 인덱스에 저장된 연결 리스트에 데이터를 저장하게 된다.
+
+<br>
+
+## TreeSet<E> 클래스
+TreeSet 클래스는 데이터가 정렬된 상태로 저장되는 이진 검색 트리(binary search tree)의 형태로 요소를 저장한다.
+
+이진 검색 트리는 데이터를 추가하거나 제거하는 등의 기본 동작 시간이 매우 빠르다.
