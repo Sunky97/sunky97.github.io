@@ -125,9 +125,24 @@ System.out.println("이진 검색 트리의 크기 : " + ts.size()); // 3
  
 
 // subSet() 메소드를 이용한 부분 집합의 출력
-① System.out.println(ts.subSet(10, 20));  // 10
-② System.out.println(ts.subSet(10, true, 20, true));  // 10, 20
-
+System.out.println(ts.subSet(10, 20));  // 10
+System.out.println(ts.subSet(10, true, 20, true));  // 10, 20
 ```
 
 위의 예제처럼 `TreeSet` 인스턴스에 저장되는 요소들은 모두 정렬된 상태로 저장된다.
+
+## Set 인터페이스 메소드
+Set 인터페이스는 Collection 인터페이스를 상속받으므로, Collection 인터페이스에서 정의한 메소드도 모두 사용할 수 있다.  
+
+
+
+|메소드|설명|
+|---|---|
+|boolean add(E e)|해당 집합(set)에 전달된 요소를 추가함|
+|void clear()|해당 집합의 모든 요소를 제거함|
+|boolean contains(Object o)|해당 집합이 전달된 객체를 포함하고 있는지 확인함|
+|boolean equals(Object o)|해당 집합과 전달된 객체가 같은지 확인함|
+|boolean isEmpty()|해당 집합이 비어있는지를 확인함.|
+|boolean remove(Object o)	|해당 집합에서 전달된 객체를 제거함.|
+|int size()|해당 집합의 요소의 총 개수를 반환함.|
+|Object[] toArray()|해당 집합의 모든 요소를 Object 타입의 배열로 반환함.|
