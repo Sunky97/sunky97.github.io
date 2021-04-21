@@ -134,8 +134,6 @@ System.out.println(ts.subSet(10, true, 20, true));  // 10, 20
 ## Set 인터페이스 메소드
 Set 인터페이스는 Collection 인터페이스를 상속받으므로, Collection 인터페이스에서 정의한 메소드도 모두 사용할 수 있다.  
 
-
-
 |메소드|설명|
 |---|---|
 |boolean add(E e)|해당 집합(set)에 전달된 요소를 추가함|
