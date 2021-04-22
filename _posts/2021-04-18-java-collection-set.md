@@ -122,8 +122,6 @@ while (iter.hasNext()) {
 // size() 메소드를 이용한 요소의 총 개수
 System.out.println("이진 검색 트리의 크기 : " + ts.size()); // 3
 
- 
-
 // subSet() 메소드를 이용한 부분 집합의 출력
 System.out.println(ts.subSet(10, 20));  // 10
 System.out.println(ts.subSet(10, true, 20, true));  // 10, 20
